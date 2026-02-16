@@ -4,12 +4,12 @@
 
 ## 機能
 
-- 📁 背景画像のアップロード
-- ✏️ 商品情報の入力（商品名、数量、価格など）
-- 💰 元値を赤い二重線で表示
-- 🎯 税込価格を大きく目立たせて表示
-- 📥 1920×1080の高解像度PNG画像として保存
-- 👀 リアルタイムプレビュー
+- 背景画像のアップロード
+- 商品情報の入力（商品名、数量、価格など）
+- 元値を赤い一重線で表示
+- 税込価格を大きく目立たせて表示
+- 1920×1080の高解像度PNG画像として保存
+- リアルタイムプレビュー
 
 ## EXEファイルの作成方法
 
@@ -84,10 +84,6 @@
 - Windowsの場合、MS ゴシックフォントが使用されます
 - フォントファイルが見つからない場合、デフォルトフォントにフォールバックします
 
-### EXEファイルのサイズが大きい
-- PyInstallerは必要なPythonライブラリをすべて含めるため、ファイルサイズが大きくなります（通常20-50MB）
-- これは正常な動作です
-
 ### ビルドに失敗する
 1. Pythonのバージョンを確認（3.8以上が必要）
 2. すべてのファイル（pop_creator.py、requirements.txt、build_exe.bat）が同じフォルダにあるか確認
@@ -113,6 +109,41 @@ pip install -r requirements.txt
 python pop_creator.py
 ```
 
+## License
+
+This project is licensed under the MIT License.
+
+Copyright (c) 2026 Tatsuya Kajiwara
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
 ## ライセンス
 
-このツールは自由にご利用いただけます。
+本ソフトウェアは MIT License のもとで公開されています。
+
+Copyright (c) 2026 カジワラ タツヤ
+
+本ソフトウェアおよび関連文書ファイル（以下「本ソフトウェア」）の複製を取得したすべての人に対し、
+本ソフトウェアを無償で使用、複製、改変、結合、公開、頒布、再許諾、および販売する権利を含む、
+制限のない取り扱いを許可します。
+ただし、以下の条件に従うものとします。
+
+上記の著作権表示および本許諾表示を、本ソフトウェアのすべての複製または重要な部分に
+記載しなければなりません。
+
+本ソフトウェアは「現状のまま」で提供され、明示または黙示を問わず、
+商品性、特定目的への適合性、および権利非侵害についての保証を含め、
+いかなる保証も行いません。
+著作者または著作権者は、本ソフトウェアの使用またはその他の取扱いから生じる
+いかなる請求、損害、その他の責任についても責任を負いません。
+
