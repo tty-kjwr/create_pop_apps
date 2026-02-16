@@ -1,3 +1,8 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Stars](https://img.shields.io/github/stars/tty-kjwr/create_pop_apps)
+![Releases](https://img.shields.io/github/v/release/tty-kjwr/create_pop_apps)
+
+
 # ポップ作成ツール
 
 店頭POP（ポイント・オブ・パーチェス）を簡単に作成できるWindowsアプリケーションです。
